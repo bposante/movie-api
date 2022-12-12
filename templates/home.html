@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Welcome!</h1>
+<h6>
+  This is a project for Oregon State University's Cloud App Development course. This is an API that allows users to add
+  movies to collections and view those movies and collections. You first need to make a user account to be able to
+  add/view movies and collections.
+</h6>
+<h6>Log in or create a user below.</h6>
+<form method="POST">
+  <input name="username" placeholder="Username" />
+  <input name="password" placeholder="Password" type="password" />
+  <input type="submit" />
+</form>
+{% endblock %}
